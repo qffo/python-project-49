@@ -10,8 +10,14 @@ def wrong_answer_message(usr_ans, ans, name):
 Let's try again, {name}!""")
 
 
-def foo():
-    pass
+def check_even(num, user_answer):
+    if num % 2 == 0 and user_answer == 'yes':
+        print('Correct!')
+
+
+def check_not_even(num, user_answer):
+    if num % 2 != 0 and user_answer == 'no':
+        print('Correct!')
 
 
 def even_game():
@@ -19,17 +25,15 @@ def even_game():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i < 3:
-        number = randint(1, 10)
-        print(f'Question: {number}')
+        num = randint(1, 10)
+        print(f'Question: {num}')
         user_answer = prompt.string('Your answer: ')
-        if number % 2 == 0 and user_answer == 'yes':
-            print('Correct!')
-        if number % 2 == 0 and user_answer == 'no':
+        check_even(num, user_answer)
+        if num % 2 == 0 and user_answer == 'no':
             wrong_answer_message(user_answer, 'yes', name)
             break
-        if number % 2 != 0 and user_answer == 'no':
-            print('Correct!')
-        if number % 2 != 0 and user_answer == 'yes':
+        check_not_even(num, user_answer)
+        if num % 2 != 0 and user_answer == 'yes':
             wrong_answer_message(user_answer, 'no', name)
             break
         i += 1
