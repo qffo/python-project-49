@@ -10,16 +10,6 @@ def wrong_answer_message(usr_ans, ans, name):
 Let's try again, {name}!""")
 
 
-def check_even(num, user_answer):
-    if num % 2 == 0 and user_answer == 'yes':
-        print('Correct!')
-
-
-def check_not_even(num, user_answer):
-    if num % 2 != 0 and user_answer == 'no':
-        print('Correct!')
-
-
 def even_game():
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -28,14 +18,18 @@ def even_game():
         num = randint(1, 10)
         print(f'Question: {num}')
         user_answer = prompt.string('Your answer: ')
-        check_even(num, user_answer)
-        if num % 2 == 0 and user_answer == 'no':
-            wrong_answer_message(user_answer, 'yes', name)
-            break
-        check_not_even(num, user_answer)
-        if num % 2 != 0 and user_answer == 'yes':
-            wrong_answer_message(user_answer, 'no', name)
-            break
+        if num % 2 == 0:
+            if num % 2 == 0 and user_answer == 'yes':
+                print('Correct!')
+            else:
+                wrong_answer_message(user_answer, 'yes', name)
+                break
+        if num % 2 != 0:
+            if num % 2 != 0 and user_answer == 'no':
+                print('Correct!')
+            else:
+                wrong_answer_message(user_answer, 'no', name)
+                break
         i += 1
     if i == 3:
         print(f"Congratulations, {name}!")
