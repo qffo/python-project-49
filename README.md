@@ -8,4 +8,4 @@
 
 <h3>Run game brain-even and game process</h3>
 
-[![asciicast](https://asciinema.org/a/YsdSsOEuFvBPWt6J5Xt676l2B.svg)](https://asciinema.org/a/YsdSsOEuFvBPWt6J5Xt676l2B)
+[![asciicast](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu.svg)](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu)
