@@ -5,5 +5,5 @@
 Install
 [![asciicast](https://asciinema.org/a/6Ymvfib9989zidq00eRQ8kchl.svg)](https://asciinema.org/a/6Ymvfib9989zidq00eRQ8kchl)
 
-Game brain-even procedd
+Game brain-even process
 [![asciicast](https://asciinema.org/a/YsdSsOEuFvBPWt6J5Xt676l2B.svg)](https://asciinema.org/a/YsdSsOEuFvBPWt6J5Xt676l2B)
