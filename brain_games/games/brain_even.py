@@ -1,7 +1,6 @@
 import prompt
 from ..cli import welcome_user
 from ..game_logic import random_number, wrong_answer, welcome, win_game
-import sys
 
 
 def even_game():
@@ -25,10 +24,8 @@ def game_process(name):
             print('Correct!')
         else:
             wrong_answer(user_answer, 'yes', name)
-            sys.exit()
     if num % 2 != 0:
         if num % 2 != 0 and user_answer == 'no':
             print('Correct!')
         else:
             wrong_answer(user_answer, 'no', name)
-            sys.exit()

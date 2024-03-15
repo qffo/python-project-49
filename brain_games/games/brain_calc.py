@@ -1,5 +1,4 @@
 import prompt
-
 from ..cli import welcome_user
 from ..game_logic import random_number, wrong_answer, welcome, win_game
 
