@@ -4,8 +4,12 @@
 
 <h3>Package install</h3>
 
-[![asciicast](https://asciinema.org/a/6Ymvfib9989zidq00eRQ8kchl.svg)](https://asciinema.org/a/6Ymvfib9989zidq00eRQ8kchl)
+[![asciicast](https://asciinema.org/a/1VugT5fPz3YrC68VYJlNzmqXn.svg)](https://asciinema.org/a/1VugT5fPz3YrC68VYJlNzmqXn)
 
-<h3>Run game brain-even and game process</h3>
+<h3>Run game Brain Even and game process</h3>
 
 [![asciicast](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu.svg)](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu)
+
+<h3>Run game Brain Calc and game process</h3>
+
+[![asciicast](https://asciinema.org/a/k68Gdtva8hPYTvMNiG5lJsDHH.svg)](https://asciinema.org/a/k68Gdtva8hPYTvMNiG5lJsDHH)
