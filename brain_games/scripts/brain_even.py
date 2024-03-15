@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from ..Games.brain_even import even_game
+from ..games.brain_even import even_game
 
 
 def main():
