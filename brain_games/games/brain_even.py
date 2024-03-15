@@ -1,35 +1,34 @@
-#!/usr/bin/env python3
-
-from random import randint
 import prompt
 from ..cli import welcome_user
-
-
-def wrong_answer_message(usr_ans, ans, name):
-    return print(f"""'{usr_ans}' is wrong answer ;(. Correct answer was '{ans}'.
-Let's try again, {name}!""")
+from ..game_logic import random_number, wrong_answer, welcome, win_game
+import sys
 
 
 def even_game():
+    welcome()
     name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i < 3:
-        num = randint(1, 10)
-        print(f'Question: {num}')
-        user_answer = prompt.string('Your answer: ')
-        if num % 2 == 0:
-            if num % 2 == 0 and user_answer == 'yes':
-                print('Correct!')
-            else:
-                wrong_answer_message(user_answer, 'yes', name)
-                break
-        if num % 2 != 0:
-            if num % 2 != 0 and user_answer == 'no':
-                print('Correct!')
-            else:
-                wrong_answer_message(user_answer, 'no', name)
-                break
+        game_process(name)
         i += 1
     if i == 3:
-        print(f"Congratulations, {name}!")
+        win_game(name)
+
+
+def game_process(name):
+    num = random_number()
+    print(f'Question: {num}')
+    user_answer = prompt.string('Your answer: ')
+    if num % 2 == 0:
+        if num % 2 == 0 and user_answer == 'yes':
+            print('Correct!')
+        else:
+            wrong_answer(user_answer, 'yes', name)
+            sys.exit()
+    if num % 2 != 0:
+        if num % 2 != 0 and user_answer == 'no':
+            print('Correct!')
+        else:
+            wrong_answer(user_answer, 'no', name)
+            sys.exit()
