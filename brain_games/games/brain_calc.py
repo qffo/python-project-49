@@ -16,7 +16,7 @@ def calc_game():
 
 
 def game_process(name):
-    name = name
+    user_name = name
     num_one = random_number()
     num_two = random_number()
     answer = num_one + num_two
@@ -25,4 +25,4 @@ def game_process(name):
     if user_answer == str(answer):
         print('Correct!')
     else:
-        wrong_answer(user_answer, answer, name)
+        wrong_answer(user_answer, answer, user_name)
