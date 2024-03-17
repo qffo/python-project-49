@@ -6,14 +6,14 @@
 
 [![asciicast](https://asciinema.org/a/1VugT5fPz3YrC68VYJlNzmqXn.svg)](https://asciinema.org/a/1VugT5fPz3YrC68VYJlNzmqXn)
 
-<h3>Run game Brain Even and game process</h3>
+<h3>Brain Even. Run game and game process</h3>
 
 [![asciicast](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu.svg)](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu)
 
-<h3>Run game Brain Calc and game process</h3>
+<h3>Brain Calc. Run game and game process</h3>
 
 [![asciicast](https://asciinema.org/a/k68Gdtva8hPYTvMNiG5lJsDHH.svg)](https://asciinema.org/a/k68Gdtva8hPYTvMNiG5lJsDHH)
 
-<h3>Run game Brain Gcd and game process</h3>
+<h3>Brain Gcd. Run game and game process</h3>
 
 [![asciicast](https://asciinema.org/a/Pptcr1PKXViEs6Q8lKir09sk0.svg)](https://asciinema.org/a/Pptcr1PKXViEs6Q8lKir09sk0)
