@@ -17,8 +17,8 @@ def gcd_game():
 
 def game_process(name):
     user_name = name
-    num_one = random_number()
-    num_two = random_number()
+    num_one = random_number() * 2
+    num_two = random_number() * 2
     answer = nod(num_one, num_two)
     print(f'Question: {num_one} {num_two}')
     user_answer = prompt.string('Your answer: ')

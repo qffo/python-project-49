@@ -13,3 +13,7 @@
 <h3>Run game Brain Calc and game process</h3>
 
 [![asciicast](https://asciinema.org/a/k68Gdtva8hPYTvMNiG5lJsDHH.svg)](https://asciinema.org/a/k68Gdtva8hPYTvMNiG5lJsDHH)
+
+<h3>Run game Brain Gcd and game process</h3>
+
+[![asciicast](https://asciinema.org/a/Pptcr1PKXViEs6Q8lKir09sk0.svg)](https://asciinema.org/a/Pptcr1PKXViEs6Q8lKir09sk0)
