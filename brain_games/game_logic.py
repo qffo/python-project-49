@@ -3,7 +3,7 @@ import sys
 
 
 def random_number():
-    num = randint(1, 10)
+    num = randint(2, 10)
     return num
 
 
