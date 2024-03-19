@@ -18,18 +18,18 @@ This project was built using these tools:
 
 [![asciicast](https://asciinema.org/a/1VugT5fPz3YrC68VYJlNzmqXn.svg)](https://asciinema.org/a/1VugT5fPz3YrC68VYJlNzmqXn)
 
-**Brain Even.** _Run game and game process_
+**Brain Even.** Run game and game process
 
 [![asciicast](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu.svg)](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu)
 
-**Brain Calc.** _Run game and game process_
+**Brain Calc.** Run game and game process
 
 [![asciicast](https://asciinema.org/a/k68Gdtva8hPYTvMNiG5lJsDHH.svg)](https://asciinema.org/a/k68Gdtva8hPYTvMNiG5lJsDHH)
 
-**Brain Gcd.** _Run game and game process_
+**Brain Gcd.** Run game and game process
 
 [![asciicast](https://asciinema.org/a/Pptcr1PKXViEs6Q8lKir09sk0.svg)](https://asciinema.org/a/Pptcr1PKXViEs6Q8lKir09sk0)
 
-**Brain Progression.** _Run game and game process_
+**Brain Progression.** Run game and game process
 
 [![asciicast](https://asciinema.org/a/QxySJjFppd1Y4CNszT26KCQyN.svg)](https://asciinema.org/a/QxySJjFppd1Y4CNszT26KCQyN)
