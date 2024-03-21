@@ -1,7 +1,7 @@
 import prompt
 from ..cli import welcome_user
 from ..game_logic import random_number, wrong_answer, welcome, win_game
-from random import choice
+from random import choice, randint
 
 
 def progression_game():
@@ -23,8 +23,8 @@ def game_process(name):
     # переводим лист в строку разделяя пробелами
     my_string = ' '.join(map(str, prog_list))
     # верный ответ равен случайной цифре из списка
-    answer = choice(prog_list)
-    # показываем строку, заменяя верный ответ тремя точками (...)
+    answer = prog_list[randint(1, len(prog_list) - 1)]
+    # показываем строку, заменяя верный ответ двумя точками (..)
     print(f"Question: {my_string.replace(str(answer), '..')}")
     user_answer = prompt.string('Your answer: ')
     if user_answer == str(answer):
@@ -35,10 +35,6 @@ def game_process(name):
 
 def number_step():
     start = random_number()
-    step = random_number()
-    list_prog = []
-    element = start
-    while len(list_prog) < 10:
-        list_prog.append(element)
-        element += step
+    step = randint(2, 5)
+    list_prog = list(range(start, 35, step))
     return (list_prog)
