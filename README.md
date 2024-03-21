@@ -2,7 +2,30 @@
 [![Actions Status](https://github.com/qffo/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/qffo/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9ce19e7fca0f7255c50b/maintainability)](https://codeclimate.com/github/qffo/python-project-49/maintainability)
 
-### Links
+### Review
+The project was created on the company's course __Hexlet__.
+
+__"Mind Games"__ is a set of five console games based on the principle of popular mobile applications for brain training. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again. Games:
+
+| The command to start the game                             | Description                                                   |
+|-----------------------------------------------------------|---------------------------------------------------------------|
+| brain-calc                                                | Calculator. Arithmetic expressions that need to be calculated |
+| brain-progression                                         | Progression. Finding missing numbers in a sequence of numbers |
+| brain-even                                                | Determining an even number                                    |
+| brain-gcd                                                 | Determining the greatest common divisor (GCD)s                |
+| brain-prime                                               | Determining a prime number                                    |
+
+## Minimum requirements for starting a project:
+- Python version 3.11 or higher
+- Pip version 24 or higher
+- Poetry version 1.8.2 or higher (you can use the make install command to install)
+
+## Installation and launch
+1. Clone the repository locally.
+2. Install the dependencies with the `make install` command.
+3. The games are launched with the command `make game-name'. For example, `make brain-even'. 
+4. To exit the game, press Ctrl + Z.
+
 
 This project was built using these tools:
 
