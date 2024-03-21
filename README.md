@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/qffo/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/qffo/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9ce19e7fca0f7255c50b/maintainability)](https://codeclimate.com/github/qffo/python-project-49/maintainability)
 
-### Review
+## Review
 The project was created on the company's course __Hexlet__.
 
 __"Mind Games"__ is a set of five console games based on the principle of popular mobile applications for brain training. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again. Games:
