@@ -22,7 +22,7 @@ __"Mind Games"__ is a set of five console games based on the principle of popula
 
 ## Installation and launch
 1. `python3 -m pip install --user git+https://github.com/qffo/python-project-49.git`
-2. The games are launched with the command `brain-namegame`. For example, `brain-calc` or `brain-progression` ... 
+2. The games are launched with the command `brain-namegame`. For example, `brain-calc`. 
 3. To exit the game, press Ctrl + Z.
 
 
