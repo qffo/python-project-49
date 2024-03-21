@@ -38,7 +38,7 @@ This project was built using these tools:
 
 **Package install**
 
-[![asciicast](https://asciinema.org/a/1VugT5fPz3YrC68VYJlNzmqXn.svg)](https://asciinema.org/a/1VugT5fPz3YrC68VYJlNzmqXn)
+[![asciicast](https://asciinema.org/a/0qignCFKiNuNBkozrCevsRwmv.svg)](https://asciinema.org/a/0qignCFKiNuNBkozrCevsRwmv)
 
 **Brain Even.** Run game and game process
 [![asciicast](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu.svg)](https://asciinema.org/a/scel1ghZSXwfJHCcOl07mq3qu)
