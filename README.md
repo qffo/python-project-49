@@ -21,10 +21,9 @@ __"Mind Games"__ is a set of five console games based on the principle of popula
 - Poetry version 1.8.2 or higher (you can use the make install command to install)
 
 ## Installation and launch
-1. Clone the repository locally.
-2. Install the dependencies with the `make install` command.
-3. The games are launched with the command `make game-name`. For example, `make brain-even`. 
-4. To exit the game, press Ctrl + Z.
+1. python3 -m pip install --user git+https://github.com/qffo/python-project-49.git
+2. The games are launched with the command `make game-name`. For example, `make brain-even`. 
+3. To exit the game, press Ctrl + Z.
 
 
 This project was built using these tools:
