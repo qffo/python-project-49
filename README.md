@@ -23,7 +23,7 @@ __"Mind Games"__ is a set of five console games based on the principle of popula
 ## Installation and launch
 1. Clone the repository locally.
 2. Install the dependencies with the `make install` command.
-3. The games are launched with the command `make game-name'. For example, `make brain-even'. 
+3. The games are launched with the command `make game-name`. For example, `make brain-even`. 
 4. To exit the game, press Ctrl + Z.
 
 
