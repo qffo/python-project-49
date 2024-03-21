@@ -25,7 +25,7 @@ def game_process(name):
     # верный ответ равен случайной цифре из списка
     answer = choice(prog_list)
     # показываем строку, заменяя верный ответ тремя точками (...)
-    print(f"Question: {my_string.replace(str(answer), '...')}")
+    print(f"Question: {my_string.replace(str(answer), '..')}")
     user_answer = prompt.string('Your answer: ')
     if user_answer == str(answer):
         print('Correct!')
