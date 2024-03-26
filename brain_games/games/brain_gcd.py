@@ -1,18 +1,7 @@
 import prompt
-from ..cli import welcome_user
-from ..game_logic import random_number, wrong_answer, welcome, win_game
+from ..game_logic import random_number, wrong_answer
 
-
-def gcd_game():
-    welcome()
-    name = welcome_user()
-    print('Find the greatest common divisor of given numbers.')
-    i = 0
-    while i < 3:
-        game_process(name)
-        i += 1
-    if i == 3:
-        win_game(name)
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
 def game_process(name):

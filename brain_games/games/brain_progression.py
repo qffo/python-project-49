@@ -1,19 +1,8 @@
 import prompt
-from ..cli import welcome_user
-from ..game_logic import random_number, wrong_answer, welcome, win_game
+from ..game_logic import random_number, wrong_answer
 from random import randint
 
-
-def progression_game():
-    welcome()
-    name = welcome_user()
-    print('What number is missing in the progression?')
-    i = 0
-    while i < 3:
-        game_process(name)
-        i += 1
-    if i == 3:
-        win_game(name)
+DESCRIPTION = 'What number is missing in the progression?'
 
 
 def game_process(name):

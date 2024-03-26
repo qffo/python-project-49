@@ -1,18 +1,7 @@
 import prompt
-from ..cli import welcome_user
-from ..game_logic import random_number, wrong_answer, welcome, win_game
+from ..game_logic import random_number, wrong_answer
 
-
-def even_game():
-    welcome()
-    name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    i = 0
-    while i < 3:
-        game_process(name)
-        i += 1
-    if i == 3:
-        win_game(name)
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def game_process(name):

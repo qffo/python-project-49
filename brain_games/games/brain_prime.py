@@ -1,18 +1,7 @@
 import prompt
-from ..cli import welcome_user
-from ..game_logic import random_number, wrong_answer, welcome, win_game
+from ..game_logic import random_number, wrong_answer
 
-
-def prime_game():
-    welcome()
-    name = welcome_user()
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    i = 0
-    while i < 3:
-        game_process(name)
-        i += 1
-    if i == 3:
-        win_game(name)
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def game_process(name):

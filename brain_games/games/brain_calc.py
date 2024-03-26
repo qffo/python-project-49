@@ -1,18 +1,7 @@
 import prompt
-from ..cli import welcome_user
-from ..game_logic import random_number, wrong_answer, welcome, win_game
+from ..game_logic import random_number, wrong_answer
 
-
-def calc_game():
-    welcome()
-    name = welcome_user()
-    print('What is the result of the expression?')
-    i = 0
-    while i < 3:
-        game_process(name)
-        i += 1
-    if i == 3:
-        win_game(name)
+DESCRIPTION = 'What is the result of the expression?'
 
 
 def game_process(name):
