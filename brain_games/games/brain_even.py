@@ -1,5 +1,5 @@
 import prompt
-from ..game_logic import random_number, wrong_answer, correct, Question
+from ..game_logic import random_number, wrong_answer, correct
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
