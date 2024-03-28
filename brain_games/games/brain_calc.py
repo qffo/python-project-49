@@ -1,17 +1,19 @@
-import prompt
-from ..game_logic import random_number, wrong_answer, correct
+from ..game_logic import random_number
+from random import choice
 
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def game_process(name):
-    user_name = name
+def game_question():
+    """Калькуляор"""
     num_one = random_number()
     num_two = random_number()
-    answer = num_one + num_two
-    print(f'Question: {num_one} + {num_two}')
-    user_answer = prompt.string('Your answer: ')
-    if user_answer == str(answer):
-        correct()
-    else:
-        wrong_answer(user_answer, answer, user_name)
+    operations = choice(['+', '-', '*'])
+    if operations == '+':
+        answer = num_one + num_two
+    if operations == '-':
+        answer = num_one - num_two
+    if operations == '*':
+        answer = num_one * num_two
+    question = f"{num_one} {operations} {num_two}"
+    return question, answer

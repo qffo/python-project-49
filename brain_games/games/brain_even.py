@@ -1,20 +1,14 @@
-import prompt
-from ..game_logic import random_number, wrong_answer, correct
+from ..game_logic import random_number
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def game_process(name):
+def game_question():
+    """Определение четного числа"""
     num = random_number()
-    print(f'Question: {num}')
-    user_answer = prompt.string('Your answer: ')
+    question = num
     if num % 2 == 0:
-        if num % 2 == 0 and user_answer == 'yes':
-            correct()
-        else:
-            wrong_answer(user_answer, 'yes', name)
+        answer = 'yes'
     if num % 2 != 0:
-        if num % 2 != 0 and user_answer == 'no':
-            correct()
-        else:
-            wrong_answer(user_answer, 'no', name)
+        answer = 'no'
+    return question, answer

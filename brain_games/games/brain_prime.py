@@ -1,25 +1,20 @@
-import prompt
-from ..game_logic import random_number, wrong_answer, correct
+from ..game_logic import random_number
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_process(name):
-    user_name = name
+def game_question():
     num_one = random_number()
     if is_prime(num_one) is True:
         answer = 'yes'
     else:
         answer = 'no'
-    print(f'Question: {num_one}')
-    user_answer = prompt.string('Your answer: ')
-    if user_answer == str(answer):
-        correct()
-    else:
-        wrong_answer(user_answer, answer, user_name)
+    question = num_one
+    return question, answer
 
 
 def is_prime(number):
+    """Определение простого числа"""
     if number <= 1:
         return False
     for i in range(2, int(number**0.5) + 1):

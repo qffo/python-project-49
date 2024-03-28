@@ -1,23 +1,18 @@
-import prompt
-from ..game_logic import random_number, wrong_answer, correct
+from ..game_logic import random_number
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def game_process(name):
-    user_name = name
+def game_question():
     num_one = random_number() * 2
     num_two = random_number() * 2
+    question = F"{num_one} {num_two}"
     answer = nod(num_one, num_two)
-    print(f'Question: {num_one} {num_two}')
-    user_answer = prompt.string('Your answer: ')
-    if user_answer == str(answer):
-        correct()
-    else:
-        wrong_answer(user_answer, answer, user_name)
+    return question, answer
 
 
 def nod(num_one, num_two):
+    """Определение наибольшего общего делителя (GCD)s"""
     while num_two > 0:
         num_one, num_two = num_two, num_one % num_two
     return num_one
