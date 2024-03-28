@@ -1,5 +1,5 @@
 import prompt
-from ..game_logic import random_number, wrong_answer
+from ..game_logic import random_number, wrong_answer, correct
 
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
@@ -12,7 +12,7 @@ def game_process(name):
     print(f'Question: {num_one} {num_two}')
     user_answer = prompt.string('Your answer: ')
     if user_answer == str(answer):
-        print('Correct!')
+        correct()
     else:
         wrong_answer(user_answer, answer, user_name)
 

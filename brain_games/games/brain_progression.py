@@ -1,5 +1,5 @@
 import prompt
-from ..game_logic import random_number, wrong_answer
+from ..game_logic import random_number, wrong_answer, correct
 from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
@@ -17,7 +17,7 @@ def game_process(name):
     print(f"Question: {my_string.replace(str(answer), '..')}")
     user_answer = prompt.string('Your answer: ')
     if user_answer == str(answer):
-        print('Correct!')
+        correct()
     else:
         wrong_answer(user_answer, answer, user_name)
 

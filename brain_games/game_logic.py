@@ -25,5 +25,5 @@ def wrong_answer(usr_ans, ans, name):
 Let's try again, {name}!"""), sys.exit()
 
 
-def welcome():
-    print("Welcome to the Brain Games!")
+def correct():
+    print('Correct!')

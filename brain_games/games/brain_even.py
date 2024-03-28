@@ -1,5 +1,5 @@
 import prompt
-from ..game_logic import random_number, wrong_answer
+from ..game_logic import random_number, wrong_answer, correct, Question
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
@@ -10,11 +10,11 @@ def game_process(name):
     user_answer = prompt.string('Your answer: ')
     if num % 2 == 0:
         if num % 2 == 0 and user_answer == 'yes':
-            print('Correct!')
+            correct()
         else:
             wrong_answer(user_answer, 'yes', name)
     if num % 2 != 0:
         if num % 2 != 0 and user_answer == 'no':
-            print('Correct!')
+            correct()
         else:
             wrong_answer(user_answer, 'no', name)
