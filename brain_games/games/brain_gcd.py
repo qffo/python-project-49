@@ -12,7 +12,7 @@ def game_question():
 
 
 def nod(num_one, num_two):
-    """Определение наибольшего общего делителя (GCD)s"""
+    """Определение наибольшего общего делителя (GCD)"""
     while num_two > 0:
         num_one, num_two = num_two, num_one % num_two
     return num_one

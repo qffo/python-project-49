@@ -5,7 +5,7 @@ DESCRIPTION = 'What is the result of the expression?'
 
 
 def game_question():
-    """Калькуляор"""
+    """Калькулятор"""
     num_one = random_number()
     num_two = random_number()
     operations = choice(['+', '-', '*'])
