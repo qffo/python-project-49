@@ -19,7 +19,7 @@ def question_and_answer():
 def get_question(prog_list, answer):
     """Построение строки вопроса"""
     question_str = ' '.join(map(str, prog_list))
-    question = f"{question_str.replace(str(answer), '…')}"
+    question = f"{question_str.replace(str(answer), '..')}"
     return question
 
 
