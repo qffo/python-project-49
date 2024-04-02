@@ -1,14 +1,24 @@
-from ..game_logic import random_number
+from random import randint
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+LOWER_LIMIT = 2
+UPPER_LIMIT = 10
 
-def game_question():
-    """Определение четного числа"""
-    num = random_number()
-    question = num
-    if num % 2 == 0:
+
+def question_and_answer():
+    num = randint(LOWER_LIMIT, UPPER_LIMIT)
+    if is_even(num) is True:
         answer = 'yes'
-    if num % 2 != 0:
+    else:
         answer = 'no'
+    question = num
     return question, answer
+
+
+def is_even(number):
+    """Определение четного числа"""
+    if number % 2 == 0:
+        return True
+    if number % 2 != 0:
+        return False

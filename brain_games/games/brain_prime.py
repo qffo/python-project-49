@@ -1,15 +1,18 @@
-from ..game_logic import random_number
+from random import randint
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+LOWER_LIMIT = 2
+UPPER_LIMIT = 10
 
-def game_question():
-    num_one = random_number()
-    if is_prime(num_one) is True:
+
+def question_and_answer():
+    num = randint(LOWER_LIMIT, UPPER_LIMIT)
+    if is_prime(num) is True:
         answer = 'yes'
     else:
         answer = 'no'
-    question = num_one
+    question = num
     return question, answer
 
 
