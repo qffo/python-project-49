@@ -4,7 +4,7 @@ import sys
 ROUNDS_QTY = 3
 
 
-def start_game(game):
+def play_game(game):
     print('Welcome to the brain games!')
     name = prompt.string('May i have your name ? ')
     print(f'Hello, {name}!\n{game.DESCRIPTION}')
