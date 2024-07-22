@@ -5,7 +5,7 @@
 ## Review
 The project was created on the company's course __Hexlet__.
 
-__"Mind Games"__ is a set of five console games based on the principle of popular mobile applications for brain training. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again. Games:
+__"Brain Games"__ is a set of five console games based on the principle of popular mobile applications for brain training. Each game asks questions that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again. Games:
 
 | The command to start the game                             | Description                                                   |
 |-----------------------------------------------------------|---------------------------------------------------------------|
